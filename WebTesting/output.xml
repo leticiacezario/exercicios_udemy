@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230823 16:07:35.373" rpa="false" schemaversion="4">
+<suite id="s1" name="If Loops" source="c:\CursoUdemy\RobotFramework\WebTesting\if_loops.robot">
+<test id="s1-t1" name="Mostrar numeros da LISTA" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230823 16:07:35.393" endtime="20230823 16:07:35.393"/>
+</kw>
+<for flavor="IN">
+<var>${NUMERO}</var>
+<value>@{LISTA}</value>
+<iter>
+<var name="${NUMERO}">0</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.395" endtime="20230823 16:07:35.395"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.394" endtime="20230823 16:07:35.395"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.395" endtime="20230823 16:07:35.395"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.395" endtime="20230823 16:07:35.395"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.395" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.395" endtime="20230823 16:07:35.397"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.395" endtime="20230823 16:07:35.397"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.395" endtime="20230823 16:07:35.397"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.394" endtime="20230823 16:07:35.397"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.394" endtime="20230823 16:07:35.397"/>
+</iter>
+<iter>
+<var name="${NUMERO}">1</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.398" endtime="20230823 16:07:35.398"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.397" endtime="20230823 16:07:35.398"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.398" endtime="20230823 16:07:35.398"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.398" endtime="20230823 16:07:35.398"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.399" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.399"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.398" endtime="20230823 16:07:35.399"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.398" endtime="20230823 16:07:35.399"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.397" endtime="20230823 16:07:35.399"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.397" endtime="20230823 16:07:35.399"/>
+</iter>
+<iter>
+<var name="${NUMERO}">2</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.399"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.399"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.399"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.401"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.401" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.401" endtime="20230823 16:07:35.401"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.401" endtime="20230823 16:07:35.401"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.401" endtime="20230823 16:07:35.401"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.402"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.399" endtime="20230823 16:07:35.402"/>
+</iter>
+<iter>
+<var name="${NUMERO}">3</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.402"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.402"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.402"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.402"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.403" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.403" endtime="20230823 16:07:35.403"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.403" endtime="20230823 16:07:35.403"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.403"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.403"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.402" endtime="20230823 16:07:35.403"/>
+</iter>
+<iter>
+<var name="${NUMERO}">4</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.403" endtime="20230823 16:07:35.404"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.403" endtime="20230823 16:07:35.404"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.404" endtime="20230823 16:07:35.404"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.404" endtime="20230823 16:07:35.404"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.404" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.404" endtime="20230823 16:07:35.404"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.404" endtime="20230823 16:07:35.405"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.404" endtime="20230823 16:07:35.405"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.403" endtime="20230823 16:07:35.405"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.403" endtime="20230823 16:07:35.405"/>
+</iter>
+<iter>
+<var name="${NUMERO}">5</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<kw name="Log" library="BuiltIn">
+<arg>Eu sou o número 5!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.405" level="INFO">Eu sou o número 5!</msg>
+<status status="PASS" starttime="20230823 16:07:35.405" endtime="20230823 16:07:35.405"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.405" endtime="20230823 16:07:35.405"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.405" endtime="20230823 16:07:35.406"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.406"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.406"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.406"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.406"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.405" endtime="20230823 16:07:35.406"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.405" endtime="20230823 16:07:35.406"/>
+</iter>
+<iter>
+<var name="${NUMERO}">6</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.407" endtime="20230823 16:07:35.407"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.407"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.407" endtime="20230823 16:07:35.407"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.407" endtime="20230823 16:07:35.407"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.407" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.407" endtime="20230823 16:07:35.408"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.407" endtime="20230823 16:07:35.408"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.407" endtime="20230823 16:07:35.408"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.408"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.406" endtime="20230823 16:07:35.408"/>
+</iter>
+<iter>
+<var name="${NUMERO}">7</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.408" endtime="20230823 16:07:35.408"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.408" endtime="20230823 16:07:35.408"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.408" endtime="20230823 16:07:35.408"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.408" endtime="20230823 16:07:35.409"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.409" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.409" endtime="20230823 16:07:35.409"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.409" endtime="20230823 16:07:35.409"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.409" endtime="20230823 16:07:35.409"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.408" endtime="20230823 16:07:35.409"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.408" endtime="20230823 16:07:35.409"/>
+</iter>
+<iter>
+<var name="${NUMERO}">8</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.410" endtime="20230823 16:07:35.410"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.409" endtime="20230823 16:07:35.410"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.410" endtime="20230823 16:07:35.410"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.410" endtime="20230823 16:07:35.410"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.411" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.410" endtime="20230823 16:07:35.411"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.410" endtime="20230823 16:07:35.411"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.410" endtime="20230823 16:07:35.411"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.409" endtime="20230823 16:07:35.411"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.409" endtime="20230823 16:07:35.411"/>
+</iter>
+<iter>
+<var name="${NUMERO}">9</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.411" endtime="20230823 16:07:35.411"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.411" endtime="20230823 16:07:35.411"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.412" endtime="20230823 16:07:35.412"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.411" endtime="20230823 16:07:35.412"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu não sou o número 5 e nem o 10</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.412" level="INFO">Eu não sou o número 5 e nem o 10</msg>
+<status status="PASS" starttime="20230823 16:07:35.412" endtime="20230823 16:07:35.412"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.412" endtime="20230823 16:07:35.412"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.412" endtime="20230823 16:07:35.412"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.411" endtime="20230823 16:07:35.412"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.411" endtime="20230823 16:07:35.412"/>
+</iter>
+<iter>
+<var name="${NUMERO}">10</var>
+<if>
+<branch type="IF" condition="${NUMERO} == 5">
+<kw name="Logar informações quando o numero for igual a 5">
+<status status="NOT RUN" starttime="20230823 16:07:35.413" endtime="20230823 16:07:35.413"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.413" endtime="20230823 16:07:35.413"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMERO} == 10">
+<kw name="Logar informações quando o numero for igual a 10">
+<kw name="Log" library="BuiltIn">
+<arg>Eu sou o número 10!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230823 16:07:35.413" level="INFO">Eu sou o número 10!</msg>
+<status status="PASS" starttime="20230823 16:07:35.413" endtime="20230823 16:07:35.413"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.413" endtime="20230823 16:07:35.414"/>
+</kw>
+<status status="PASS" starttime="20230823 16:07:35.413" endtime="20230823 16:07:35.414"/>
+</branch>
+<branch type="ELSE">
+<kw name="Logar informações quando o numero for diferente de 5 e 10">
+<status status="NOT RUN" starttime="20230823 16:07:35.414" endtime="20230823 16:07:35.414"/>
+</kw>
+<status status="NOT RUN" starttime="20230823 16:07:35.414" endtime="20230823 16:07:35.414"/>
+</branch>
+<status status="PASS" starttime="20230823 16:07:35.412" endtime="20230823 16:07:35.414"/>
+</if>
+<status status="PASS" starttime="20230823 16:07:35.412" endtime="20230823 16:07:35.414"/>
+</iter>
+<status status="PASS" starttime="20230823 16:07:35.394" endtime="20230823 16:07:35.414"/>
+</for>
+<status status="PASS" starttime="20230823 16:07:35.392" endtime="20230823 16:07:35.414"/>
+</test>
+<doc>Exercicio if e loops</doc>
+<status status="PASS" starttime="20230823 16:07:35.376" endtime="20230823 16:07:35.416"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="If Loops">If Loops</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

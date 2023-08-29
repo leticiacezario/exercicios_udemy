@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230822 17:18:56.600" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\leeh_\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Exibir mes Fevereiro">
+<msg timestamp="20230822 17:18:57.138" level="FAIL">No keyword with name 'Exibir mes Fevereiro' found.</msg>
+<status status="FAIL" starttime="20230822 17:18:57.138" endtime="20230822 17:18:57.139"/>
+</kw>
+<status status="PASS" starttime="20230822 17:18:56.616" endtime="20230822 17:18:59.018"/>
+</kw>
+<status status="PASS" starttime="20230822 17:18:56.616" endtime="20230822 17:18:59.018"/>
+</test>
+<status status="PASS" starttime="20230822 17:18:56.601" endtime="20230822 17:18:59.019"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
