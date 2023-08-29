@@ -1,80 +1,31 @@
-*** Settings ***
-Documentation   Exemplo de tipo de variável: listando
+*** Variables ***
 
-*** Variable ***
-
-@{MESES}         Janeiro    Fevereiro    Março    Abril    Maio    Junho    Julho    Agosto    Setembro    Outubro    Novembro    Dezembro
+@{meses}    janeiro
+...         fevereiro
+...         março
+...         abril
+...         maio
+...         junho
+...         julho
+...         agosto
+...         setembro
+...         outubro
+...         novembro
+...         dezembro
 
 *** Test Cases ***
-Caso de teste Jan
-    Exibir mes Jan
 
-Caso de teste Fev
-    Exibir mes Fev
-
-Caso de teste Mar
-    Exibir mes Mar
-
-Caso de teste Abr
-    Exibir mes Abr
-
-Caso de teste Mai
-    Exibir mes Mai
-
-Caso de teste Jun
-    Exibir mes Jun
-
-Caso de teste Jul
-    Exibir mes Jul
-
-Caso de teste Ago
-    Exibir mes Ago
-
-Caso de teste Set
-    Exibir mes Set
-
-Caso de teste Out
-    Exibir mes Out
-
-Caso de teste Nov
-    Exibir mes Nov
-
-Caso de teste Dez
-    Exibir mes Dez
-
-*** Keywords ***
-Exibir mes Jan
-    Log to console  ${MESES[0]}
-
-Exibir mes Fev
-     Log to console  ${MESES[1]}
-
-Exibir mes Mar
-     Log to console  ${MESES[2]}
-
-Exibir mes Abr
-     Log to console  ${MESES[3]}
-
-Exibir mes Mai
-     Log to console  ${MESES[4]}
-
-Exibir mes Jun
-     Log to console  ${MESES[5]}
-
-Exibir mes Jul
-     Log to console  ${MESES[6]}
-
-Exibir mes Ago
-     Log to console  ${MESES[7]}
-
-Exibir mes Set
-     Log to console  ${MESES[8]}
-
-Exibir mes Out
-     Log to console  ${MESES[9]}
-
-Exibir mes Nov
-     Log to console  ${MESES[10]}
-
-Exibir mes Dez
-     Log to console  ${MESES[11]}
+Imprimir meses do ano
+    
+    Log To Console    Mês 01: ${meses[0]}
+    Log To Console    Mês 02: ${meses[1]}
+    Log To Console    Mês 03: ${meses[2]}
+    Log To Console    Mês 04: ${meses[3]}
+    Log To Console    Mês 05: ${meses[4]}
+    Log To Console    Mês 06: ${meses[5]}
+    Log To Console    Mês 07: ${meses[6]}
+    Log To Console    Mês 08: ${meses[7]}
+    Log To Console    Mês 09: ${meses[8]}
+    Log To Console    Mês 10: ${meses[9]}
+    Log To Console    Mês 11: ${meses[10]}
+    Log To Console    Mês 12: ${meses[11]}
